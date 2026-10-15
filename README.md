@@ -31,6 +31,7 @@
 3. 企业合规类（安全认证、终端管控）、授权类工具与系统个性化未列入本清单。
 4. 表内链接优先使用官网，其次 GitHub 仓库；未确认项标注「待确认」。
 5. 换机照 [08](docs/08-environment-and-migration.md) 的还原顺序可走通全流程。
+6. `configs/opencode/` 保存全局指令栈三份文件的副本（`AGENTS.md` / `agents-md-rules.md` / `skills-usage.md`），改动后随仓库同步（方式见 [configs/README.md](configs/README.md)）。
 
 ## 维护
 

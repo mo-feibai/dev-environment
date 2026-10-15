@@ -36,11 +36,13 @@ OpenCode 的全局配置分三层：**配置文件**（`~/.config/opencode/`）�
 
 ## 指令栈
 
-| 文件 | 作用 |
-| --- | --- |
-| `AGENTS.md` | 全局行为规则：输出风格（先给下一步、编号、限时；引用 `i-have-adhd`）、Skill 加载纪律、用户交互（统一走 `question` 工具、提问前自查、一次最多 2 问）、Git 提交（不主动提交；提交消息 `<emoji> <type>(<scope>): <中文描述>`） |
-| `agents-md-rules.md` | 判定「什么该写进 AGENTS.md」的规则；改 `AGENTS.md` 前先读 |
-| `skills-usage.md` | Skill 路由表：11 条高频场景 → 对应 skill；浏览器/测试的三层分工（面板 / agent-browser / playwright）；兜底与例外条款 |
+| 文件 | 作用 | 仓库副本 |
+| --- | --- | --- |
+| `AGENTS.md` | 全局行为规则：输出风格（先给下一步、编号、限时；引用 `i-have-adhd`）、Skill 加载纪律、用户交互（统一走 `question` 工具、提问前自查、一次最多 2 问）、Git 提交（不主动提交；提交消息 `<emoji> <type>(<scope>): <中文描述>`） | [configs/opencode/AGENTS.md](../configs/opencode/AGENTS.md) |
+| `agents-md-rules.md` | 判定「什么该写进 AGENTS.md」的规则；改 `AGENTS.md` 前先读 | [configs/opencode/agents-md-rules.md](../configs/opencode/agents-md-rules.md) |
+| `skills-usage.md` | Skill 路由表：11 条高频场景 → 对应 skill；浏览器/测试的三层分工（面板 / agent-browser / playwright）；兜底与例外条款 | [configs/opencode/skills-usage.md](../configs/opencode/skills-usage.md) |
+
+> 三份的**正文**随本仓库版本化（`configs/opencode/`，同步方式见 `configs/README.md`）；线上生效位置仍是 `~/.config/opencode/`，改动后记得回灌仓库。
 
 ## 其他配置文件
 
